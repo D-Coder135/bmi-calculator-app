@@ -55,6 +55,8 @@ class ReusableCard extends StatelessWidget {
   //   Key key,
   // }) : super(key: key);
 
+  Color colour;
+
   @override
   Widget build(BuildContext context) {
     return Container(
