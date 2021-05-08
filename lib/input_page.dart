@@ -22,12 +22,12 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    activeCardColor,
+                    colour: activeCardColor,
                   ),
                 ),
                 Expanded(
                   child: ReusableCard(
-                    activeCardColor,
+                    colour: activeCardColor,
                   ),
                 ),
               ],
@@ -35,7 +35,7 @@ class _InputPageState extends State<InputPage> {
           ),
           Expanded(
             child: ReusableCard(
-              activeCardColor,
+              colour: activeCardColor,
             ),
           ),
           Expanded(
@@ -43,12 +43,12 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    activeCardColor,
+                    colour: activeCardColor,
                   ),
                 ),
                 Expanded(
                   child: ReusableCard(
-                    activeCardColor,
+                    colour: activeCardColor,
                   ),
                 ),
               ],
