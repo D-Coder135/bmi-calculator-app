@@ -11,7 +11,9 @@ class BMICalculator extends StatelessWidget {
         primaryColor: Color(0xFF0A0D22),
         scaffoldBackgroundColor: Color(0xFF0A0D22),
         textTheme: TextTheme(
-          body1: TextStyle(color: Colors.white),
+          body1: TextStyle(
+              color: Colors
+                  .white), // This is the method by which we can customize the Text Style by our own.
         ),
       ),
       home: InputPage(),
