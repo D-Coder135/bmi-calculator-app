@@ -6,7 +6,7 @@ class BMICalculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme:
+      theme: ThemeData.dark()
       // ThemeData(
       //   // The hashcode for the opaque is 0xFF. Add this in place of # symbol in every hexcode.
       //   primaryColor: Color(0xFF0A0D22),
