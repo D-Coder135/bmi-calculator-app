@@ -14,6 +14,8 @@ class _InputPageState extends State<InputPage> {
       ),
       body: Container(
         color: Color(0xFF1D1E33),
+        height: 200.0,
+        width: 170.0,
       ),
       //Center(
       // child: Text('Body Text'),
