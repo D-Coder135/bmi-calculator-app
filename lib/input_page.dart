@@ -71,6 +71,7 @@ class ReusableCard extends StatelessWidget {
   // }) : super(key: key);
 
   final Color colour;
+  final Widget cardChild;
 
   ReusableCard(this.colour);
 
