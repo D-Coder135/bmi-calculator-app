@@ -8,6 +8,7 @@ class InputPage extends StatefulWidget {
 class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
+    const bottomContainerHeight = 80.0;
     return Scaffold(
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
