@@ -52,7 +52,7 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: 10),
+            margin: EdgeInsets.only(top: 10.0),
           ),
         ],
       ),
