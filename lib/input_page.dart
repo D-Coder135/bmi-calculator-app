@@ -32,7 +32,10 @@ class _InputPageState extends State<InputPage> {
                         SizedBox(
                           height: 15.0,
                         ),
-                        Text('MALE')
+                        Text(
+                          'MALE',
+                          style: TextStyle(),
+                        ),
                       ],
                     ),
                     colour: activeCardColor,
