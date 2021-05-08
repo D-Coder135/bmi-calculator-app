@@ -16,7 +16,9 @@ class _InputPageState extends State<InputPage> {
         children: <Widget>[
           Expanded(
             child: Row(
-              children: <Widget>[],
+              children: <Widget>[
+                Expanded(child: null),
+              ],
             ),
           ),
           Expanded(child: null),
