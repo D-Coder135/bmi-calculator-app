@@ -13,7 +13,7 @@ class _InputPageState extends State<InputPage> {
         title: Text('BMI CALCULATOR'),
       ),
       body: Container(
-        color: Color(0xFF1D1E33),
+        // color: Color(0xFF1D1E33),
         margin: EdgeInsets.all(15.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10.0),
