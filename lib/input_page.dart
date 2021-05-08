@@ -29,6 +29,7 @@ class _InputPageState extends State<InputPage> {
                           FontAwesomeIcons.male,
                           size: 80.0,
                         ),
+                        SizedBox(),
                       ],
                     ),
                     colour: activeCardColor,
