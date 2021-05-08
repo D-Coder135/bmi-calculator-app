@@ -88,9 +88,6 @@ class _InputPageState extends State<InputPage> {
           )
         ],
       ),
-      //Center(
-      // child: Text('Body Text'),
-
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
       ),
