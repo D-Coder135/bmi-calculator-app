@@ -51,7 +51,9 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          Container(),
+          Container(
+            margin: EdgeInsets.only(top: 10),
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(
