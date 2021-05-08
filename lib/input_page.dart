@@ -34,7 +34,9 @@ class _InputPageState extends State<InputPage> {
                         ),
                         Text(
                           'MALE',
-                          style: TextStyle(),
+                          style: TextStyle(
+                            color: Color(0xFF8D8E98),
+                          ),
                         ),
                       ],
                     ),
