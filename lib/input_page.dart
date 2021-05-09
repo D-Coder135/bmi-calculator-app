@@ -70,20 +70,12 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        // updateColor(Gender.MALE);
-                        selectedGender = Gender.MALE;
-                      });
-                    },
-                    child: ReusableCard(
-                      // colour: maleCardColor,
-                      colour: selectedGender == Gender.MALE
-                          ? activeCardColor
-                          : inactiveCardColor,
-                      cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
-                    ),
+                  child: ReusableCard(
+                    // colour: maleCardColor,
+                    colour: selectedGender == Gender.MALE
+                        ? activeCardColor
+                        : inactiveCardColor,
+                    cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
                   ),
                 ),
                 Expanded(
