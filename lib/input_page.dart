@@ -17,7 +17,9 @@ class _InputPageState extends State<InputPage> {
   Color maleCardColor = inactiveCardColor;
   Color femaleCardColor = inactiveCardColor;
 
-  void updateColor(int gender) {}
+  void updateColor(int gender) {
+    if (gender == 1) {}
+  }
 
   @override
   Widget build(BuildContext context) {
