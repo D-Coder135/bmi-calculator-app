@@ -75,8 +75,8 @@ class _InputPageState extends State<InputPage> {
                     },
                     // colour: maleCardColor,
                     colour: selectedGender == Gender.MALE
-                        ? activeCardColor
-                        : inactiveCardColor,
+                        ? kActiveCardColor
+                        : kInactiveCardColor,
                     cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
                   ),
                 ),
@@ -90,8 +90,8 @@ class _InputPageState extends State<InputPage> {
                     },
                     // colour: femaleCardColor,
                     colour: selectedGender == Gender.FEMALE
-                        ? activeCardColor
-                        : inactiveCardColor,
+                        ? kActiveCardColor
+                        : kInactiveCardColor,
                     cardChild: IconContent(FontAwesomeIcons.female, 'FEMALE'),
                   ),
                 ),
@@ -100,7 +100,7 @@ class _InputPageState extends State<InputPage> {
           ),
           Expanded(
             child: ReusableCard(
-              colour: activeCardColor,
+              colour: kActiveCardColor,
             ),
           ),
           Expanded(
@@ -108,21 +108,21 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    colour: activeCardColor,
+                    colour: kActiveCardColor,
                   ),
                 ),
                 Expanded(
                   child: ReusableCard(
-                    colour: activeCardColor,
+                    colour: kActiveCardColor,
                   ),
                 ),
               ],
             ),
           ),
           Container(
-            color: bottomContainerColor,
+            color: kBottomContainerColor,
             margin: EdgeInsets.only(top: 10.0),
-            height: bottomContainerHeight,
+            height: kBottomContainerHeight,
           ),
         ],
       ),
