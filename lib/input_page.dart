@@ -130,6 +130,7 @@ class _InputPageState extends State<InputPage> {
                         min: 120.0,
                         max: 220.0,
                         activeColor: Color(0xFFEB1555),
+                        inactiveColor: Color(0xFF8D8E98),
                       ),
                     ],
                   ),
