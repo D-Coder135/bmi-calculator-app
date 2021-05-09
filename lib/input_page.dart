@@ -22,40 +22,40 @@ class _InputPageState extends State<InputPage> {
   Color maleCardColor = inactiveCardColor;
   Color femaleCardColor = inactiveCardColor;
 
-  void selectMaleCard() {
-    maleCardColor = activeCardColor;
-    femaleCardColor = inactiveCardColor;
-  }
-
-  void selectFemaleCard() {
-    femaleCardColor = activeCardColor;
-    maleCardColor = inactiveCardColor;
-  }
-
-  void updateColor(Gender gender) {
-    gender == Gender.MALE
-        ? maleCardColor == inactiveCardColor
-            ? selectMaleCard()
-            : maleCardColor = inactiveCardColor
-        : femaleCardColor == inactiveCardColor
-            ? selectFemaleCard()
-            : femaleCardColor = inactiveCardColor;
-    // if (gender == Gender.MALE) {
-    //   if (maleCardColor == inactiveCardColor) {
-    //     selectMaleCard();
-    //   } else {
-    //     maleCardColor = inactiveCardColor;
-    //   }
-    // }
-    // // female card pressed
-    // if (gender == Gender.FEMALE) {
-    //   if (femaleCardColor == inactiveCardColor) {
-    //     selectFemaleCard();
-    //   } else {
-    //     femaleCardColor = inactiveCardColor;
-    //   }
-    // }
-  }
+  // void selectMaleCard() {
+  //   maleCardColor = activeCardColor;
+  //   femaleCardColor = inactiveCardColor;
+  // }
+  //
+  // void selectFemaleCard() {
+  //   femaleCardColor = activeCardColor;
+  //   maleCardColor = inactiveCardColor;
+  // }
+  //
+  // void updateColor(Gender gender) {
+  //   gender == Gender.MALE
+  //       ? maleCardColor == inactiveCardColor
+  //           ? selectMaleCard()
+  //           : maleCardColor = inactiveCardColor
+  //       : femaleCardColor == inactiveCardColor
+  //           ? selectFemaleCard()
+  //           : femaleCardColor = inactiveCardColor;
+  //   // if (gender == Gender.MALE) {
+  //   //   if (maleCardColor == inactiveCardColor) {
+  //   //     selectMaleCard();
+  //   //   } else {
+  //   //     maleCardColor = inactiveCardColor;
+  //   //   }
+  //   // }
+  //   // // female card pressed
+  //   // if (gender == Gender.FEMALE) {
+  //   //   if (femaleCardColor == inactiveCardColor) {
+  //   //     selectFemaleCard();
+  //   //   } else {
+  //   //     femaleCardColor = inactiveCardColor;
+  //   //   }
+  //   // }
+  // }
 
   @override
   Widget build(BuildContext context) {
