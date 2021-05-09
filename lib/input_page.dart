@@ -55,10 +55,12 @@ class _InputPageState extends State<InputPage> {
                       updateColor(1);
                     });
                   },
-                  child: Expanded(
-                    child: ReusableCard(
-                      colour: maleCardColor,
-                      cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
+                  child: GestureDetector(
+                    child: Expanded(
+                      child: ReusableCard(
+                        colour: maleCardColor,
+                        cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
+                      ),
                     ),
                   ),
                 ),
