@@ -88,6 +88,7 @@ class _InputPageState extends State<InputPage> {
                     onTap: () {
                       setState(() {
                         // updateColor(Gender.FEMALE);
+                        selectedGender = Gender.FEMALE;
                       });
                     },
                     child: ReusableCard(
