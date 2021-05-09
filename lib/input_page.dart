@@ -110,7 +110,10 @@ class _InputPageState extends State<InputPage> {
                   ),
                   Row(
                     children: <Widget>[
-                      Text('180'),
+                      Text(
+                        '180',
+                        style: TextStyle(),
+                      ),
                     ],
                   ),
                 ],
