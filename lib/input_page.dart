@@ -27,6 +27,7 @@ class _InputPageState extends State<InputPage> {
         maleCardColor = inactiveCardColor;
       }
     }
+    if (gender == 2) {}
   }
 
   @override
