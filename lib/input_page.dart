@@ -86,7 +86,7 @@ class IconContent extends StatelessWidget {
           height: 15.0,
         ),
         Text(
-          'MALE',
+          textContent,
           style: TextStyle(color: Color(0xFF8D8E98), fontSize: 18.0),
         ),
       ],
