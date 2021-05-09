@@ -114,6 +114,7 @@ class _InputPageState extends State<InputPage> {
                         '180',
                         style: kNumberTextStyle,
                       ),
+                      Text('cm'),
                     ],
                   ),
                 ],
