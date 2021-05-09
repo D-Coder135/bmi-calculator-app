@@ -125,6 +125,9 @@ class _InputPageState extends State<InputPage> {
                         'cm',
                         style: kLabelTextStyle,
                       ),
+                      Slider(
+                        value: height.toDouble(),
+                      ),
                     ],
                   ),
                 ],
