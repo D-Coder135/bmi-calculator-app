@@ -24,7 +24,7 @@ class _InputPageState extends State<InputPage> {
                 Expanded(
                   child: ReusableCard(
                     colour: activeCardColor,
-                    cardChild: ReusableColumnCard(),
+                    cardChild: IconContent(),
                   ),
                 ),
                 Expanded(
@@ -67,8 +67,8 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
-class ReusableColumnCard extends StatelessWidget {
-  const ReusableColumnCard({
+class IconContent extends StatelessWidget {
+  const IconContent({
     Key key,
   }) : super(key: key);
 
