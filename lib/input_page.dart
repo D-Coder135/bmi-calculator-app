@@ -70,6 +70,9 @@ class _InputPageState extends State<InputPage> {
 class IconContent extends StatelessWidget {
   final IconData iconWidget;
   final String textContent;
+
+  IconContent.name(this.iconWidget, this.textContent);
+
   @override
   Widget build(BuildContext context) {
     return Column(
