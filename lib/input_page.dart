@@ -86,6 +86,12 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: ReusableCard(
+                    onPress: () {
+                      setState(() {
+                        // updateColor(Gender.FEMALE);
+                        selectedGender = Gender.FEMALE;
+                      });
+                    },
                     // colour: femaleCardColor,
                     colour: selectedGender == Gender.FEMALE
                         ? activeCardColor
