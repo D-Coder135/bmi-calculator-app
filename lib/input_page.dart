@@ -108,6 +108,7 @@ class _InputPageState extends State<InputPage> {
                     'HEIGHT',
                     style: kLabelTextStyle,
                   ),
+                  Row(),
                 ],
               ),
             ),
