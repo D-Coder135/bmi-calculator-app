@@ -79,6 +79,9 @@ class _InputPageState extends State<InputPage> {
                     },
                     child: ReusableCard(
                       // colour: maleCardColor,
+                      colour: selectedGender == Gender.MALE
+                          ? activeCardColor
+                          : inactiveCardColor,
                       cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
                     ),
                   ),
