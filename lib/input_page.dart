@@ -51,7 +51,9 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      setState(() {});
+                    },
                     child: ReusableCard(
                       colour: maleCardColor,
                       cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
