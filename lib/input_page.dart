@@ -79,7 +79,7 @@ class IconContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Icon(
-          FontAwesomeIcons.male,
+          iconWidget,
           size: 80.0,
         ),
         SizedBox(
