@@ -78,7 +78,7 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     child: ReusableCard(
-                      colour: maleCardColor,
+                      // colour: maleCardColor,
                       cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
                     ),
                   ),
