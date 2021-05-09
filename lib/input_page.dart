@@ -95,7 +95,7 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     child: ReusableCard(
-                      colour: femaleCardColor,
+                      // colour: femaleCardColor,
                       cardChild: IconContent(FontAwesomeIcons.female, 'FEMALE'),
                     ),
                   ),
