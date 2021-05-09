@@ -118,7 +118,7 @@ class _InputPageState extends State<InputPage> {
                     textBaseline: TextBaseline.alphabetic,
                     children: <Widget>[
                       Text(
-                        '180',
+                        height.toString(),
                         style: kNumberTextStyle,
                       ),
                       Text(
