@@ -112,7 +112,8 @@ class _InputPageState extends State<InputPage> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.baseline,
+                    crossAxisAlignment: CrossAxisAlignment
+                        .baseline, // If you want to align the contents of a widget as per the baseline then you must also set the textBaseLine property otherwise the app will crash.
                     textBaseline: TextBaseline.alphabetic,
                     children: <Widget>[
                       Text(
