@@ -112,10 +112,7 @@ class _InputPageState extends State<InputPage> {
                     children: <Widget>[
                       Text(
                         '180',
-                        style: TextStyle(
-                          fontSize: 50.0,
-                          fontWeight: FontWeight.w900,
-                        ),
+                        style: kNumberTextStyle,
                       ),
                     ],
                   ),
