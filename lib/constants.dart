@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// The naming convention for a constant value in Dart Language is ->  add k in the starting of the name of the constant field.
+
 const kBottomContainerHeight = 80.0;
 const kActiveCardColor = Color(0xFF1D1E33);
 const kInactiveCardColor = Color(0xFF111328);
