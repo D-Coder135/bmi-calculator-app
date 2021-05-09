@@ -56,6 +56,7 @@ class _InputPageState extends State<InputPage> {
                     });
                   },
                   child: GestureDetector(
+                    onTap: () {},
                     child: Expanded(
                       child: ReusableCard(
                         colour: maleCardColor,
