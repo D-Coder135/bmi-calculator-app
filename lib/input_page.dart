@@ -29,7 +29,7 @@ class _InputPageState extends State<InputPage> {
                       children: <Widget>[
                         Icon(
                           FontAwesomeIcons.male,
-                          size: 90.0,
+                          size: 80.0,
                         ),
                         SizedBox(
                           height: 15.0,
