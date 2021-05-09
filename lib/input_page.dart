@@ -128,6 +128,7 @@ class _InputPageState extends State<InputPage> {
                     ],
                   ),
                   SliderTheme(
+                    data: SliderTheme.of(context),
                     child: Slider(
                       value: height.toDouble(),
                       min: 120.0,
