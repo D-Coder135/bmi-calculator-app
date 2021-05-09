@@ -28,7 +28,9 @@ class _InputPageState extends State<InputPage> {
       }
     }
     // female card pressed
-    if (gender == 2) {}
+    if (gender == 2) {
+      if (femaleCardColor == inactiveCardColor) {}
+    }
   }
 
   @override
