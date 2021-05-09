@@ -40,21 +40,21 @@ class _InputPageState extends State<InputPage> {
         : femaleCardColor == inactiveCardColor
             ? selectFemaleCard()
             : femaleCardColor = inactiveCardColor;
-    if (gender == Gender.MALE) {
-      if (maleCardColor == inactiveCardColor) {
-        selectMaleCard();
-      } else {
-        maleCardColor = inactiveCardColor;
-      }
-    }
-    // female card pressed
-    if (gender == Gender.FEMALE) {
-      if (femaleCardColor == inactiveCardColor) {
-        selectFemaleCard();
-      } else {
-        femaleCardColor = inactiveCardColor;
-      }
-    }
+    // if (gender == Gender.MALE) {
+    //   if (maleCardColor == inactiveCardColor) {
+    //     selectMaleCard();
+    //   } else {
+    //     maleCardColor = inactiveCardColor;
+    //   }
+    // }
+    // // female card pressed
+    // if (gender == Gender.FEMALE) {
+    //   if (femaleCardColor == inactiveCardColor) {
+    //     selectFemaleCard();
+    //   } else {
+    //     femaleCardColor = inactiveCardColor;
+    //   }
+    // }
   }
 
   @override
