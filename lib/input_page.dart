@@ -19,7 +19,9 @@ class _InputPageState extends State<InputPage> {
 
   void updateColor(int gender) {
     // male card pressed
-    if (gender == 1) {}
+    if (gender == 1) {
+      if (maleCardColor == inactiveCardColor) {}
+    }
   }
 
   @override
