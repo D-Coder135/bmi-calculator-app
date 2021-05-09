@@ -14,6 +14,7 @@ class InputPage extends StatefulWidget {
 }
 
 class _InputPageState extends State<InputPage> {
+  Color maleCardColor = inactiveCardColor;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
