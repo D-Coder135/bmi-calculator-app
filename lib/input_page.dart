@@ -109,7 +109,9 @@ class _InputPageState extends State<InputPage> {
                     style: kLabelTextStyle,
                   ),
                   Row(
-                    children: <Widget>[],
+                    children: <Widget>[
+                      Text('180'),
+                    ],
                   ),
                 ],
               ),
