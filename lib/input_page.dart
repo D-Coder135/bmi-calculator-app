@@ -95,6 +95,7 @@ class ReusableCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      child: cardChild,
       // color: Color(0xFF1D1E33), Whenever we use decoration property inside the Container() widget then its compulsory that the color property should be specified inside the decoration property.
       margin: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
