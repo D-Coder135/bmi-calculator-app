@@ -64,6 +64,7 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: GestureDetector(
+                    onTap: () {},
                     child: ReusableCard(
                       colour: femaleCardColor,
                       cardChild: IconContent(FontAwesomeIcons.female, 'FEMALE'),
