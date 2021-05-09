@@ -35,7 +35,7 @@ class _InputPageState extends State<InputPage> {
   void updateColor(Gender gender) {
     gender == Gender.MALE
         ? maleCardColor == inactiveCardColor
-            ? selectFemaleCard()
+            ? selectMaleCard()
             : maleCardColor = inactiveCardColor
         : femaleCardColor == inactiveCardColor
             ? selectFemaleCard()
