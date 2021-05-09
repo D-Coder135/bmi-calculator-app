@@ -68,10 +68,10 @@ class _InputPageState extends State<InputPage> {
 }
 
 class IconContent extends StatelessWidget {
-  final IconData iconWidget;
+  final IconData iconContent;
   final String textContent;
 
-  IconContent.name(this.iconWidget, this.textContent);
+  IconContent.name(this.iconContent, this.textContent);
 
   @override
   Widget build(BuildContext context) {
@@ -79,7 +79,7 @@ class IconContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Icon(
-          iconWidget,
+          iconContent,
           size: 80.0,
         ),
         SizedBox(
