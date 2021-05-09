@@ -50,9 +50,11 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: ReusableCard(
-                    colour: maleCardColor,
-                    cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
+                  child: GestureDetector(
+                    child: ReusableCard(
+                      colour: maleCardColor,
+                      cardChild: IconContent(FontAwesomeIcons.male, 'MALE'),
+                    ),
                   ),
                 ),
                 Expanded(
