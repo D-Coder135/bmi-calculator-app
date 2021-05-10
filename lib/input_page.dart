@@ -263,6 +263,7 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
           GestureDetector(
+            onTap: () {},
             child: Container(
               child: Text('Calculate'),
               color: kBottomContainerColor,
