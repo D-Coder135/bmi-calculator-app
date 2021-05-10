@@ -175,7 +175,11 @@ class _InputPageState extends State<InputPage> {
                         ),
                         Row(
                           children: <Widget>[
-                            FloatingActionButton(),
+                            FloatingActionButton(
+                              child: Icon(
+                                Icons.add,
+                              ),
+                            ),
                           ],
                         ),
                       ],
