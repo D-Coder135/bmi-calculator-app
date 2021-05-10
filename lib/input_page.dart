@@ -176,7 +176,9 @@ class _InputPageState extends State<InputPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            RoundIconButton(),
+                            RoundIconButton(
+                              icon: FontAwesomeIcons.plus,
+                            ),
                             // FloatingActionButton(
                             //   backgroundColor: Color(0xFF4C4F5E),
                             //   child: Icon(
