@@ -179,7 +179,9 @@ class _InputPageState extends State<InputPage> {
                             RoundIconButton(
                               icon: FontAwesomeIcons.minus,
                               onPressed: () {
-                                setState(() {});
+                                setState(() {
+                                  weight--;
+                                });
                               },
                             ),
                             // FloatingActionButton(
