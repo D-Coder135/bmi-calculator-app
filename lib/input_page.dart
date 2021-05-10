@@ -177,7 +177,7 @@ class _InputPageState extends State<InputPage> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             RoundIconButton(
-                              icon: FontAwesomeIcons.plus,
+                              icon: FontAwesomeIcons.minus,
                             ),
                             // FloatingActionButton(
                             //   backgroundColor: Color(0xFF4C4F5E),
@@ -226,6 +226,7 @@ class _InputPageState extends State<InputPage> {
 
 class RoundIconButton extends StatelessWidget {
   final IconData icon;
+  final Function onPressed;
 
   RoundIconButton({this.icon});
 
