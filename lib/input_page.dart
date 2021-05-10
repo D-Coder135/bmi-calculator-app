@@ -184,7 +184,9 @@ class _InputPageState extends State<InputPage> {
                                     color: Colors.white,
                                   ),
                                 ),
-                                SizedBox(),
+                                SizedBox(
+                                  width: 10.0,
+                                ),
                                 FloatingActionButton(
                                   backgroundColor: Color(0xFF4C4F5E),
                                   child: Icon(
