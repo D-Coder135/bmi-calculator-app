@@ -242,6 +242,7 @@ class _InputPageState extends State<InputPage> {
                                 });
                               },
                             ),
+                            SizedBox(),
                             RoundIconButton(
                               icon: FontAwesomeIcons.plus,
                               onPressed: () {
