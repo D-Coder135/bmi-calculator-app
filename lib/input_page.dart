@@ -232,6 +232,7 @@ class _InputPageState extends State<InputPage> {
                           age.toString(),
                           style: kNumberTextStyle,
                         ),
+                        Row(),
                       ],
                     ),
                   ),
