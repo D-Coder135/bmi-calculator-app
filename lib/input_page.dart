@@ -234,7 +234,9 @@ class _InputPageState extends State<InputPage> {
                         ),
                         Row(
                           children: <Widget>[
-                            RoundIconButton(),
+                            RoundIconButton(
+                              icon: FontAwesomeIcons.minus,
+                            ),
                           ],
                         ),
                       ],
