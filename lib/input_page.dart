@@ -178,6 +178,7 @@ class _InputPageState extends State<InputPage> {
                             FloatingActionButton(
                               child: Icon(
                                 Icons.add,
+                                color: Colors.white,
                               ),
                             ),
                           ],
