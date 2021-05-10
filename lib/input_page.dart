@@ -173,7 +173,9 @@ class _InputPageState extends State<InputPage> {
                           weight.toString(),
                           style: kNumberTextStyle,
                         ),
-                        Row(),
+                        Row(
+                          children: <Widget>[],
+                        ),
                       ],
                     ),
                   ),
