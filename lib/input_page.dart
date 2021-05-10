@@ -220,7 +220,10 @@ class _InputPageState extends State<InputPage> {
                     colour: kActiveCardColor,
                     cardChild: Column(
                       children: <Widget>[
-                        Text('AGE'),
+                        Text(
+                          'AGE',
+                          style: kLabelTextStyle,
+                        ),
                       ],
                     ),
                   ),
