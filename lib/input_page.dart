@@ -196,7 +196,9 @@ class _InputPageState extends State<InputPage> {
                             ),
                             RoundIconButton(
                               icon: FontAwesomeIcons.plus,
-                              onPressed: () {},
+                              onPressed: () {
+                                setState(() {});
+                              },
                             ),
                             // FloatingActionButton(
                             //   backgroundColor: Color(0xFF4C4F5E),
