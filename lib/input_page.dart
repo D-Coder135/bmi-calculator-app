@@ -189,6 +189,9 @@ class _InputPageState extends State<InputPage> {
                             SizedBox(
                               width: 10.0,
                             ),
+                            RoundIconButton(
+                              icon: FontAwesomeIcons.plus,
+                            ),
                             // FloatingActionButton(
                             //   backgroundColor: Color(0xFF4C4F5E),
                             //   child: Icon(
