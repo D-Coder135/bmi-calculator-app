@@ -263,6 +263,7 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
           Container(
+            child: Text('Calculate'),
             color: kBottomContainerColor,
             margin: EdgeInsets.only(top: 10.0),
             height: kBottomContainerHeight,
