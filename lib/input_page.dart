@@ -236,6 +236,7 @@ class _InputPageState extends State<InputPage> {
                           children: <Widget>[
                             RoundIconButton(
                               icon: FontAwesomeIcons.minus,
+                              onPressed: () {},
                             ),
                           ],
                         ),
