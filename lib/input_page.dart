@@ -178,6 +178,7 @@ class _InputPageState extends State<InputPage> {
                           children: <Widget>[
                             RoundIconButton(
                               icon: FontAwesomeIcons.minus,
+                              onPressed: () {},
                             ),
                             // FloatingActionButton(
                             //   backgroundColor: Color(0xFF4C4F5E),
