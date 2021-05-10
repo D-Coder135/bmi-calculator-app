@@ -176,6 +176,7 @@ class _InputPageState extends State<InputPage> {
                         Row(
                           children: <Widget>[
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 FloatingActionButton(
                                   backgroundColor: Color(0xFF4C4F5E),
