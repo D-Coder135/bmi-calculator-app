@@ -231,6 +231,7 @@ class RoundIconButton extends StatelessWidget {
       ),
       elevation: 6.0,
       shape: CircleBorder(),
+      fillColor: Color(0xFF4C4F5E),
     );
   }
 }
