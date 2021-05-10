@@ -220,8 +220,6 @@ class _InputPageState extends State<InputPage> {
 }
 
 class RoundIconButton extends StatelessWidget {
-  const RoundIconButton({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return RawMaterialButton(
