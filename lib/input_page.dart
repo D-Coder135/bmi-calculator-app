@@ -271,7 +271,7 @@ class _InputPageState extends State<InputPage> {
             child: Container(
               child: Center(
                 child: Text(
-                  'Calculate',
+                  'CALCULATE',
                   style: kLargeButtonTextStyle,
                 ),
               ),
