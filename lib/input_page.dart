@@ -163,7 +163,10 @@ class _InputPageState extends State<InputPage> {
                     colour: kActiveCardColor,
                     cardChild: Column(
                       children: <Widget>[
-                        Text('WEIGHT'),
+                        Text(
+                          'WEIGHT',
+                          style: kLabelTextStyle,
+                        ),
                       ],
                     ),
                   ),
