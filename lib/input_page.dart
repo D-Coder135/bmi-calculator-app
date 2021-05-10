@@ -174,7 +174,9 @@ class _InputPageState extends State<InputPage> {
                           style: kNumberTextStyle,
                         ),
                         Row(
-                          children: <Widget>[],
+                          children: <Widget>[
+                            FloatingActionButton(),
+                          ],
                         ),
                       ],
                     ),
