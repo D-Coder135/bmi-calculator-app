@@ -223,6 +223,8 @@ class RoundIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return RawMaterialButton(
+      onPressed: () {},
+    );
   }
 }
