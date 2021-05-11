@@ -11,21 +11,22 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'BMI CALCULATOR',
+          'Your Result',
+          style: kTitleTextStyle,
         ),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Expanded(
-            child: Container(
-              child: Text(
-                'Your Result',
-                style: kTitleTextStyle,
-              ),
-            ),
-          ),
+          // Expanded(
+          //   child: Container(
+          //     child: Text(
+          //       'Your Result',
+          //       style: kTitleTextStyle,
+          //     ),
+          //   ),
+          // ),
           Expanded(
             flex: 5,
             child: ReusableCard(
@@ -46,12 +47,6 @@ class ResultsPage extends StatelessWidget {
                     'Your BMI is quite low. You should eat more!',
                     textAlign: TextAlign.center,
                     style: kBodyTextStyle,
-                  ),
-                  BottomButton(
-                    buttonTitle: 'RE-CALCULATE',
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
                   ),
                 ],
               ),
