@@ -30,7 +30,10 @@ class ResultsPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text('Normal'),
+                  Text(
+                    'Normal',
+                    style: kResultTextStyle,
+                  ),
                 ],
               ),
             ),
