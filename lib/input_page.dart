@@ -286,7 +286,7 @@ class BottomButton extends StatelessWidget {
       child: Container(
         child: Center(
           child: Text(
-            'CALCULATE',
+            buttonTitle,
             style: kLargeButtonTextStyle,
           ),
         ),
