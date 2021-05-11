@@ -26,6 +26,7 @@ class ResultsPage extends StatelessWidget {
             flex: 5,
             child: ReusableCard(
               colour: kActiveCardColor,
+              cardChild: Column(),
             ),
           ),
         ],
