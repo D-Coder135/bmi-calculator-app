@@ -12,7 +12,9 @@ class ResultsPage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Expanded(),
+          Expanded(
+            child: Container(),
+          ),
         ],
       ),
     );
