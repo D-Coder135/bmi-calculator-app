@@ -11,22 +11,21 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Your Result',
-          style: kTitleTextStyle,
+          'BMI CALCULATOR',
         ),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          // Expanded(
-          //   child: Container(
-          //     child: Text(
-          //       'Your Result',
-          //       style: kTitleTextStyle,
-          //     ),
-          //   ),
-          // ),
+          Expanded(
+            child: Container(
+              child: Text(
+                'Your Result',
+                style: kTitleTextStyle,
+              ),
+            ),
+          ),
           Expanded(
             flex: 5,
             child: ReusableCard(
