@@ -24,7 +24,9 @@ class ResultsPage extends StatelessWidget {
           ),
           Expanded(
             flex: 5,
-            child: ReusableCard(),
+            child: ReusableCard(
+              colour: kActiveCardColor,
+            ),
           ),
         ],
       ),
