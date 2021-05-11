@@ -24,5 +24,7 @@ class CalculatorBrain {
     }
   }
 
-  String getIterpretation() {}
+  String getIterpretation() {
+    if (_bmi >= 25) {}
+  }
 }
