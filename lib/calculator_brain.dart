@@ -23,4 +23,6 @@ class CalculatorBrain {
       return 'Underweight';
     }
   }
+
+  String getIteration() {}
 }
