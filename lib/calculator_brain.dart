@@ -16,7 +16,7 @@ class CalculatorBrain {
         1); // This method is used to return the value as a string after fixing the number of significant digits provided in the parameter.
   }
 
-  String getResult() {
+  String getResultText() {
     if (_bmi >= 25) {
       return 'Overweight';
     } else if (_bmi > 18.5) {
