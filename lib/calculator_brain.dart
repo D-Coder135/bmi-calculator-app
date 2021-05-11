@@ -15,6 +15,8 @@ class CalculatorBrain {
   }
 
   String getResult() {
-    if (_bmi >= 25) {}
+    if (_bmi >= 25) {
+      return 'Overweight';
+    }
   }
 }
