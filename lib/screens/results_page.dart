@@ -8,7 +8,10 @@ class ResultsPage extends StatelessWidget {
   final String resultText;
   final String interpretation;
 
-  ResultsPage({this.bmiResult, this.resultText, this.interpretation});
+  ResultsPage(
+      {@required this.bmiResult,
+      @required this.resultText,
+      @required this.interpretation});
 
   @override
   Widget build(BuildContext context) {
