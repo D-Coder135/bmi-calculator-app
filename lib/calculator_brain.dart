@@ -5,4 +5,6 @@ class CalculatorBrain {
   CalculatorBrain({this.height, this.weight});
 
   double _bmi;
+
+  String calculateBMI() {}
 }
