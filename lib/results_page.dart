@@ -13,7 +13,9 @@ class ResultsPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Expanded(
-            child: Container(),
+            child: Container(
+              child: Text('Your Result'),
+            ),
           ),
         ],
       ),
