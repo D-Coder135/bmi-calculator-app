@@ -42,7 +42,10 @@ class ResultsPage extends StatelessWidget {
                     '20.0',
                     style: kBMITextStyle,
                   ),
-                  Text('Your BMI is quite low. You should eat more!'),
+                  Text(
+                    'Your BMI is quite low. You should eat more!',
+                    style: kBodyTextStyle,
+                  ),
                 ],
               ),
             ),
