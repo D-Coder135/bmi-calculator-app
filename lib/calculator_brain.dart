@@ -3,4 +3,6 @@ class CalculatorBrain {
   final int weight;
 
   CalculatorBrain({this.height, this.weight});
+
+  double _bmi;
 }
