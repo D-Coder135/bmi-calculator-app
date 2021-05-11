@@ -7,6 +7,7 @@ import '../components/bottom_button.dart';
 import '../components/icon_content.dart';
 import '../components/reusable_card.dart';
 import '../constants.dart';
+import 'package:bmi_calculator/calculator_brain.dart';
 
 enum Gender {
   MALE,
