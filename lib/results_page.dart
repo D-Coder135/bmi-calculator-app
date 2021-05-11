@@ -11,7 +11,7 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Your Result',
+          'BMI CALCULATOR',
           style: kTitleTextStyle,
         ),
       ),
