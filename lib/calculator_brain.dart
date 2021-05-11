@@ -19,6 +19,6 @@ class CalculatorBrain {
       return 'Overweight';
     } else if (_bmi > 18.5) {
       return 'Normal';
-    }
+    } else {}
   }
 }
