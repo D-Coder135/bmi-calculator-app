@@ -21,7 +21,9 @@ class ResultsPage extends StatelessWidget {
               ),
             ),
           ),
-          Expanded(),
+          Expanded(
+            flex: 5,
+          ),
         ],
       ),
     );
