@@ -272,6 +272,7 @@ class _InputPageState extends State<InputPage> {
 
 class BottomButton extends StatelessWidget {
   final Function onTap;
+  final String buttonTitle;
 
   @override
   Widget build(BuildContext context) {
