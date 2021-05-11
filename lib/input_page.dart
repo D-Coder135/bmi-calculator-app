@@ -271,6 +271,8 @@ class _InputPageState extends State<InputPage> {
 }
 
 class BottomButton extends StatelessWidget {
+  final Function onTap;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
