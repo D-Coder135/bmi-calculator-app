@@ -24,5 +24,5 @@ class CalculatorBrain {
     }
   }
 
-  String getIteration() {}
+  String getIterpretation() {}
 }
