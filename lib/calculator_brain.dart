@@ -1,1 +1,3 @@
-class CalculatorBrain {}
+class CalculatorBrain {
+  final int height;
+}
