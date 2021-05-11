@@ -13,4 +13,6 @@ class CalculatorBrain {
     return _bmi.toStringAsFixed(
         1); // This method is used to return the value as a string after fixing the number of significant digits provided in the parameter.
   }
+
+  String getResult() {}
 }
