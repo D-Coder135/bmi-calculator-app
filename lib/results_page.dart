@@ -19,14 +19,14 @@ class ResultsPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          // Expanded(
-          //   child: Container(
-          //     child: Text(
-          //       'Your Result',
-          //       style: kTitleTextStyle,
-          //     ),
-          //   ),
-          // ),
+          Expanded(
+            child: Container(
+              child: Text(
+                'Your Result',
+                style: kTitleTextStyle,
+              ),
+            ),
+          ),
           Expanded(
             flex: 5,
             child: ReusableCard(
