@@ -48,7 +48,9 @@ class ResultsPage extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: kBodyTextStyle,
                   ),
-                  BottomButton(),
+                  BottomButton(
+                    buttonTitle: 'RE-CALCULATE',
+                  ),
                 ],
               ),
             ),
